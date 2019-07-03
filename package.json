@@ -1,0 +1,27 @@
+{
+  "name": "reactandexpress",
+  "version": "1.0.0",
+  "description": "React js and Express js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuciKritZ/reactAndExpress.git"
+  },
+  "author": "Krishal Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuciKritZ/reactAndExpress/issues"
+  },
+  "homepage": "https://github.com/LuciKritZ/reactAndExpress#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
