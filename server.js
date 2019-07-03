@@ -4,9 +4,9 @@ const port = 5000;
 
 app.get('/api/customers', (req, res) => {
     const customers = [
-        {id: 1, firstname: "John", lastname: "Doe"},
-        {id: 2, firstname: "Mary", lastname: "Swanson"},
-        {id: 3, firstname: "Steve", lastname: "Smith"}
+        {id: 1, firstName: "John", lastName: "Doe"},
+        {id: 2, firstName: "Mary", lastName: "Swanson"},
+        {id: 3, firstName: "Steve", lastName: "Smith"}
     ];
 
     res.json(customers);
